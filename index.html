@@ -16,14 +16,6 @@
 </head>
 
 <body id="home" style="font-family: Arial, Helvetica, sans-serif;">
-  <figure>
-    <figcaption>
-      Klik Play👇 "Forever Young - Alphaville"
-    </figcaption>
-    <audio controls autoplay loop>
-      <source src="audio/Forever Young - Alphaville.mp3" type="audio/ogg">
-      <source src="audio/Forever Young - Alphaville.mp3" type="audio/mpeg">
-   </figure>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
     <div class="container">
@@ -57,6 +49,23 @@
     <img src="img/pp.jpg" alt="Muhammad Fadillah" width="200" class="rounded-circle img-thumbnail" />
     <h1 class="display-4"><b>Muhammad Fadillah</b></h1>
     <p class="">Mahasiswa Program Studi Teknik Informatika <br> Universitas Teknologi Mataram</p>
+    <div align="center">
+      <figure style="background-color: #ffffff; padding: 10px; border-radius: 10px; text-align: center; width: fit-content;">
+        <figcaption style="font-weight: bold; margin-bottom: 8px;">
+        </figcaption>
+        <!-- Tombol Klik -->
+        <button onclick="playAndScroll()" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Klik Here
+        </button>
+    
+        <!-- Audio tanpa kontrol -->
+        <audio id="myAudio">
+            <source src="Forever Young - Alphaville.mp3" type="audio/ogg">
+            <source src="Forever Young - Alphaville.mp3" type="audio/mpeg">
+        </audio>
+    </figure>
+    
+    </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ffffff" fill-opacity="1"
         d="M0,96L34.3,117.3C68.6,139,137,181,206,186.7C274.3,192,343,160,411,165.3C480,171,549,213,617,240C685.7,267,754,277,823,250.7C891.4,224,960,160,1029,133.3C1097.1,107,1166,117,1234,128C1302.9,139,1371,149,1406,154.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
